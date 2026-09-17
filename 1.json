@@ -1,11 +1,17 @@
 {
-  "key": "silidm",
-  "name": "SiLiDM",
-  "type": 1,
-  "api": "https://silidm.com/api.php/provide/vod/",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1,
-  "hide": 0,
-  "ext": "{\"header\":{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 4.4.2) AppleWebKit/537.36\",\"Referer\":\"https://silidm.com/\"}}"
+  "spider": "",
+  "sites": [
+    {
+      "key": "silidm",
+      "name": "SiLiDM",
+      "type": 1,
+      "api": "https://silidm.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "hide": 0
+    }
+  ],
+  "parses": [],
+  "lives": []
 }
